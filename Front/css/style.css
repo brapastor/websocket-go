@@ -1,0 +1,33 @@
+#registro {
+    background: #eee;
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 10em;
+    width: 29%;
+}
+#registro input, #registro label{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#registro input[type="text"]{
+    width: 80%;
+}
+
+#registro label{
+    width: 20%;
+    text-align: left;
+}
+
+#registro input[type="submit"]{
+    margin-top: 1em;
+    float: right;
+    clear:both;
+    display: block;
+}
+
+#container_chat {
+    display: none;
+}
